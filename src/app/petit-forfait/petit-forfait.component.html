@@ -1,0 +1,28 @@
+<div class="flex">
+  <mat-card class="card" *ngFor="let f of forfaits" >
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>{{f.nom}} </mat-card-title>
+        <mat-card-subtitle>{{f.etablissement}}</mat-card-subtitle>
+        <mat-card-subtitle>{{f.date_debut }}</mat-card-subtitle>
+        <mat-card-subtitle>{{f.date_fin}}</mat-card-subtitle>
+        <img mat-card-image src="\src\app\img\hotel1.jpg" alt="{{f.site_web }}">
+      </mat-card-header>
+      <mat-card-actions>
+        <button mat-button><del>${{f.prix }} </del></button>
+        <button mat-button>Nouveau prix:  $ {{f.nouveau_prix }}</button>
+      </mat-card-actions>
+    </mat-card>
+    <br>
+    <mat-card>
+      <div class="premium">
+      <span class="avertissement" *ngIf="f.nouveau_prix >=1 && f.nouveau_prix < f.prix"><button mat-button>Forfaits Premium!</button></span>
+      <span class="alerte" *ngIf="f.nouveau_prix === f.prix">
+        <div [ngStyle]="{'background-color': f.nouveau_prix }">$ {{f.nouveau_prix}}<br>
+          <a href="#">Offre expirée</a>
+    </div>
+     </span>
+    </div>
+    </mat-card>
+  </mat-card>
+  </div>

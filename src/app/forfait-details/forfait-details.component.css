@@ -1,0 +1,33 @@
+.premium:hover{
+    background-color: #1d1d1d;
+    color: orange;
+  }
+  
+  .forfait-prix{
+    text-align: center;
+    border: 0.1px solid #ccc;
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+  }
+  .forfait-details .forfait-image img{
+    width: 400px;
+    height: 400px;
+  }
+  .prix .forfait-details .forfait-prix{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  h2{
+    color: blue;
+  }
+  h3{
+    color: rgb(117, 29, 129);
+  }
+  h4{
+    color: green;
+  }
+  h5{
+    color: crimson;
+  }

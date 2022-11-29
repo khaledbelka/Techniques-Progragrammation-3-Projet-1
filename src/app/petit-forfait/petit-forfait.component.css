@@ -1,0 +1,13 @@
+
+.premium:hover{
+  background-color: orangered;
+  color: orange;
+}
+
+.flex{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}

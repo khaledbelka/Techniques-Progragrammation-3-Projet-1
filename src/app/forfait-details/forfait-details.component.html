@@ -1,0 +1,44 @@
+<div class="forfait-details">
+    <div class="forfait-image">
+<img
+        src="\src\app\img\hotel1.jpg" [alt]="forfait?.nom"> 
+      </div>
+<div class="fofait-nom">
+    <h2>{{ forfait?.nom?.substring(0,40) }} {{ forfait && forfait.nom[41] ? "..." : null}}</h2>
+</div>
+<div class="fofait-description">
+    <h3>{{ forfait?.description?.substring(0,40) }} {{ forfait && forfait.description[41] ? "..." : null}}</h3>
+</div>
+<div class="categories">
+    <h3>{{ forfait?.categories?.substring(0,40) }} {{ forfait && forfait.categories[41] ? "..." : null}}</h3>
+</div>
+<div class="etablissement">
+    <h3>etablissement:{{ forfait?.etablissement }}</h3>
+    <h3>Coordonnees:{{ forfait?.coordonnees }}</h3>
+    <h3>Site web:{{ forfait?.site_web }}</h3>
+</div>
+<div class="details">
+    <h3>details:{{ forfait?.details}}</h3>
+</div>
+
+<div class="date">
+    <h2>Debut:{{ forfait?.date_debut }}</h2>
+    <h2>Fin:{{ forfait?.date_fin }}</h2>
+</div>
+
+<div class="forfait-prix">
+    <h4>Nouveau prix:  $ {{ (forfait?.nouveau_prix || 0 )/1 }}</h4>
+    
+      <h5>Prix réel: <del>$ {{ (forfait?.prix || 0)/1 }}</del> </h5>
+
+    
+    <tr>
+        <td>Economies: $ </td>
+        <td>{{ forfait?.economie }}</td>
+    </tr>
+  
+  </div>
+  <div class="premium">
+    <h6>Premium:{{ forfait?.premium}}</h6>
+</div>
+</div>

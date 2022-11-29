@@ -1,0 +1,100 @@
+[
+    { 
+        "nom" : "FORFAIT CADEAUX HÉBERGEMENT",
+       "description": "Serour1",
+        "code": 1,
+        "categories": "Hotel 5 etoile",
+        "etablissement" : {
+        "nom" : "Hotel sur mere",
+        "coordonnees" : {
+        "adresse" : "Plage de ville",
+        "ville" : "Rio",
+        "telephone" : 1234567890,
+        "courriel" : "abc123@rio.com",
+        "site_web" : "hotelrioplage.com"
+        },
+        "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
+        },
+        "date_debut" :"24-12-2022",
+        "date_fin" : "03-01-2023",
+        "prix" : 2500,
+        "nouveau_prix": 2300,
+        "premium": true,
+        "avis": [
+        {
+        "note": 4,
+        "commentaires": "Sed ut perspiciatis unde omnis"
+        },
+        {
+        "note": 5,
+        "commentaires": "voluptatem accusantium doloremque laudantium"
+        }
+        ]
+    },
+    { 
+        "nom" : "forfait2",
+       "description": "Serour1",
+        "code": 1,
+        "categories": "Hotel 5 etoile",
+        "etablissement" : {
+        "nom" : "Hotel sur mere",
+        "coordonnees" : {
+        "adresse" : "Plage de ville",
+        "ville" : "Rio",
+        "telephone" : 1234567890,
+        "courriel" : "abc123@rio.com",
+        "site_web" : "hotelrioplage.com"
+        },
+        "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
+        },
+        "date_debut" :"24-12-2022",
+        "date_fin" : "03-01-2023",
+        "prix" : 2500,
+        "nouveau_prix": 2300,
+        "premium": true,
+        "avis": [
+        {
+        "note": 4,
+        "commentaires": "Sed ut perspiciatis unde omnis"
+        },
+        {
+        "note": 5,
+        "commentaires": "voluptatem accusantium doloremque laudantium"
+        }
+        ]
+    },
+    
+    { 
+        "nom" : "forfait1",
+       "description": "Serour1",
+        "code": 1,
+        "categories": "Hotel 5 etoile",
+        "etablissement" : {
+        "nom" : "Hotel sur mere",
+        "coordonnees" : {
+        "adresse" : "Plage de ville",
+        "ville" : "Rio",
+        "telephone" : 1234567890,
+        "courriel" : "abc123@rio.com",
+        "site_web" : "hotelrioplage.com"
+        },
+        "description" : "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium"
+        },
+        "date_debut" :"24-12-2022",
+        "date_fin" : "03-01-2023",
+        "prix" : 2500,
+        "nouveau_prix": 2300,
+        "premium": true,
+        "avis": [
+        {
+        "note": 4,
+        "commentaires": "Sed ut perspiciatis unde omnis"
+        },
+        {
+        "note": 5,
+        "commentaires": "voluptatem accusantium doloremque laudantium"
+        }
+        ]
+    }
+    ]
+    
