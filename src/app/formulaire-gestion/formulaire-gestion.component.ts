@@ -1,5 +1,5 @@
-import { Component,Input, OnInit } from '@angular/core';
-import { Forfait } from '../forfait';
+import { Component,Input, OnInit,  } from '@angular/core';
+
 
 @Component({
   selector: 'app-formulaire-gestion',
@@ -7,8 +7,10 @@ import { Forfait } from '../forfait';
   styleUrls: ['./formulaire-gestion.component.css']
 })
 export class FormulaireGestionComponent implements OnInit {
-@Input() forfait: Forfait | undefined
-  
+  checked = false;
+  indeterminate = false;
+  labelPosition: 'before' | 'after' = 'after';
+  disabled = false;
   constructor() { }
 
   ngOnInit(): void {
